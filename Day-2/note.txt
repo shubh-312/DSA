@@ -1,0 +1,36 @@
+Identifier: Name in java program called identifier which can be used for identification purpose. It can be method name , class name, varibale name.
+
+public class HelloWord {
+    public static void main(String args[]){
+        int x;
+    }
+}
+
+Total identifier in above program : 5
+Here is the list: 
+1. HelloWord
+2. main
+3. String
+4. args
+5. x
+
+
+*****************************************************************************
+Rules for defining java identifier
+
+1. Allowed character are: a to z, A to Z, 0 to 9, $, and _ if we use any another character we will get error.
+2. Identifier can't start with digit.
+3. Java identifier are case sensitive.
+4. In Java identifier have no length limit but it is not recommended to take big identifier.
+5. We can't use reserved world as identifier.
+6. All predefined java class name and interface name can be used as identifier but it is not recommended.
+    
+    public class HelloWord {
+        public static void main(String args[]){
+            int String = 8;
+            int Runnable = 10;
+            SOP(String) //8
+            SOP(Runnable) //10
+        }
+    }
+
